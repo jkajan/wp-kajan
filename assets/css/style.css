@@ -151,7 +151,7 @@ POSTS & CONTENT STYLES
 img {
   filter: grayscale(100%);
   object-fit: cover;
-  padding: 1em 4em;
+  padding: 1em 1em;
 }
 
 container_small {
