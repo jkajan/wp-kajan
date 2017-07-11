@@ -15,7 +15,7 @@ function joints_comments($comment, $args, $depth) {
 							$bgauthemail = get_comment_author_email();
 						?>
 						<?php printf(__('%s', 'jointswp'), get_comment_author_link()) ?> on
-						<time datetime="<?php echo comment_time('Y-m-j'); ?>"<a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php comment_time(__(' F jS, Y - H:i', 'jointswp')); ?> </a></time>
+						<time datetime="<?php echo comment_time('Y-m-j'); ?>"<a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php comment_time(__(' F j, Y - H:i', 'jointswp')); ?> </a></time>
 						<?php edit_comment_link(__('(Edit)', 'jointswp'),'  ','') ?>
 					</header>
 					<section class="comment_content clearfix">

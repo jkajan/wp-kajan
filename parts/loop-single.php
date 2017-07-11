@@ -11,7 +11,6 @@
 						
 	<footer class="article-footer">
 		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'jointswp' ), 'after'  => '</div>' ) ); ?>
-		<p class="tags"><?php the_tags('<span class="tags-title">' . __( 'Tags:', 'jointswp' ) . '</span> ', ', ', ''); ?></p>	
 		<?php get_template_part( 'parts/content', 'byline' ); ?>
 	</footer> <!-- end article footer -->
 						

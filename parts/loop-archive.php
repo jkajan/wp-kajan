@@ -9,7 +9,6 @@
 	</section> <!-- end article section -->
 						
 	<footer class="article-footer">
-    	<p class="tags"><?php the_tags('<span class="tags-title">' . __('Tags:', 'jointstheme') . '</span> ', ', ', ''); ?></p>
 		<?php get_template_part( 'parts/content', 'byline' ); ?>
 	</footer> <!-- end article footer -->				    						
 </article> <!-- end article -->

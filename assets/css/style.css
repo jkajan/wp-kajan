@@ -131,11 +131,22 @@ POSTS & CONTENT STYLES
 
 .byline {
   color: #aaa; 
-  font-size: 0.8em}
+  font-size: 0.8em
+  }
+
+.tags {
+  color: #aaa; 
+  }
+
+.tags a {
+  color: #aaa;
+  text-decoration: underline;
+  }
 
 .entry-content img {
   max-width: 100%;
-  height: auto; }
+  height: auto; 
+  }
 
 img {
   filter: grayscale(100%);
@@ -300,13 +311,18 @@ COMMENT STYLES
 .commentlist .comment-reply-link {
   float: right; }
 
+.comments-area article header {
+  color:#aaa;
+  font-size: 0.8em;
+}
+
 .comments-area article header, time {
   color:#aaa;
-  font-size: 0.9em;
 }
+
 .comments-area article header a {
   text-decoration: underline;
-  color: #999;
+  color: #aaa;
   }
 
 /*********************
