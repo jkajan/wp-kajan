@@ -16,26 +16,26 @@
 				<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 			<![endif]-->
 	    	<meta name="theme-color" content="#121212">
-		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
-		<link rel="icon" sizes="16x16 32x32 64x64" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
-		<link rel="icon" type="image/png" sizes="196x196" href="<?php echo get_template_directory_uri(); ?>/favicon-192.png">
-		<link rel="icon" type="image/png" sizes="160x160" href="<?php echo get_template_directory_uri(); ?>/favicon-160.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="<?php echo get_template_directory_uri(); ?>/favicon-96.png">
-		<link rel="icon" type="image/png" sizes="64x64" href="<?php echo get_template_directory_uri(); ?>/favicon-64.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/favicon-32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/favicon-16.png">
-		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/favicon-57.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/favicon-114.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/favicon-72.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/favicon-144.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_template_directory_uri(); ?>/favicon-60.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/favicon-120.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/favicon-76.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/favicon-152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/favicon-180.png">
+		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon.ico">
+		<link rel="icon" sizes="16x16 32x32 64x64" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon.ico">
+		<link rel="icon" type="image/png" sizes="196x196" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-192.png">
+		<link rel="icon" type="image/png" sizes="160x160" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-160.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-96.png">
+		<link rel="icon" type="image/png" sizes="64x64" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-64.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-16.png">
+		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-180.png">
 		<meta name="msapplication-TileColor" content="#FFFFFF">
-		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/favicon-144.png">
-		<meta name="msapplication-config" content="<?php echo get_template_directory_uri(); ?>/browserconfig.xml">
+		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-144.png">
+		<meta name="msapplication-config" content="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/browserconfig.xml">
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
@@ -49,12 +49,10 @@
 	<!-- Uncomment this line if using the Off-Canvas Menu --> 
 		
 	<body <?php body_class(); ?>>
-	
-		<div class="columns row">
-			<h1><a style="font-family:'Lobster','cursive';font-size:48px;" href="http://blog.kajan.io">blog.</a><a style="font-family:'Lobster','cursive';font-size:48px" href="http://j.kajan.io">kaján.io</a></h1>
-		</div>
-		<hr style="border:solid #aaa, height: 1px"/>
-
+		<div class="row columns">
+			<a href="https://blog.xn--kajn-7na.io" class="headertext">blog.kaján.io</a>
+			<hr style="border:solid #aaa, height: 1px;"/>
+		</div>	
 		<div class="off-canvas-wrapper">
 							
 			<?php get_template_part( 'parts/content', 'offcanvas' ); ?>

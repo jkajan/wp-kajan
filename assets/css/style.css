@@ -8,8 +8,7 @@ Stylesheet: Main Stylesheet
 GENERAL STYLES
 *********************/
 
-@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Lobster+Two:400,700,700i');
 
 body {
     padding: 2em;
@@ -18,6 +17,27 @@ body {
 html * {
     font-family: 'Droid Sans', sans-serif;
     color: #333;
+}
+
+.columns {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.headertext {
+    background-color: #fff; overflow:hidden;
+    padding-left: 10px;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: lowercase;
+    font-size: 48px;
+    background: url(https://blog.xn--kajn-7na.io/wp-content/themes/kajan-wp/assets/images/bg1.png);
+    background-size: 250px;
+    background-position: 0px 10px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: block;
 }
 /*********************
 LINK STYLES
@@ -38,18 +58,21 @@ a:active {
 H1, H2, H3, H4, H5 P STYLES
 *********************/
  h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-style: italic;
     text-transform: lowercase;
     font-size: 32px;
 }
 
 h1 a:hover, .h1 a:hover, h2 a:hover, .h2 a:hover, h3 a:hover, .h3 a:hover, h4 a:hover, .h4 a:hover, h5 a:hover .h5 a:hover {
     text-decoration: underline;
-    font-color: #333;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-style: italic;
     text-transform: lowercase;
     font-size: 32px;
 } 
@@ -60,7 +83,9 @@ h1, h2, h3, h4, h5 {
 }
 
 .lobster {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-weight: 700;
+    font-style: italic;
     text-transform: lowercase;
     font-size: 32px;
 }
@@ -112,17 +137,52 @@ POSTS & CONTENT STYLES
   max-width: 100%;
   height: auto; }
 
+img {
+  filter: grayscale(100%);
+  object-fit: cover;
+  padding: 1em 4em;
+}
+
+container_small {
+  max-height: 250px;
+  max-width: 250px;
+}
+
+img.tiny {
+  height: 100px;
+  width: 100px;
+}
+
+img.small {
+  height: 250px;
+  width: 250px;
+}
+
+
+
+img.medium {
+  max-height: 400px;
+  width: 400px;
+}
+
+img.large {
+  height: 800px;
+  width: 800px;
+}
+
+
 .entry-content .alignleft, .entry-content img.alignleft {
-  margin-right: 1.5em;
+  margin: 1.5em;
   display: inline;
   float: left; }
 
 .entry-content .alignright, .entry-content img.alignright {
-  margin-left: 1.5em;
+  margin: 1.5em;
   display: inline;
   float: right; }
 
 .entry-content .aligncenter, .entry-content img.aligncenter {
+  margin-top 1.5em;
   margin-right: auto;
   margin-left: auto;
   display: block;
