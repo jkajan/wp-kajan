@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header('404'); ?>
 			
 	<div id="content">
 
@@ -9,7 +9,6 @@
 				<article id="content-not-found">
 				
 					<header class="article-header">
-						<h1><?php _e( 'Oh no. It appears you got a 404.', 'jointswp' ); ?></h1>
 					</header> <!-- end article header -->
 			
 					<section class="entry-content">
