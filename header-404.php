@@ -50,7 +50,7 @@
 		
 	<body <?php body_class(); ?>>
 		<div class="row columns">
-			<a href="https://blog.xn--kajn-7na.io" class="headertext">blog.kaján.io: error 404</a>
+			<a href="https://blog.xn--kajn-7na.io" class="headertext">blog.kaján.io - error 404</a>
 			<hr style="border:solid #aaa, height: 1px;"/>
 		</div>	
 		<div class="off-canvas-wrapper">

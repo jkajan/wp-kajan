@@ -50,7 +50,7 @@
 		
 	<body <?php body_class(); ?>>
 		<div class="row columns">
-			<a href="https://blog.xn--kajn-7na.io" class="headertext">blog.kaján.io: <?php the_archive_title();?></a>
+			<a href="https://blog.xn--kajn-7na.io" class="headertext">blog.kaján.io - <?php esc_attr(get_the_archive_title());?></a>
 			<hr style="border:solid #aaa, height: 1px;"/>
 		</div>	
 		<div class="off-canvas-wrapper">
