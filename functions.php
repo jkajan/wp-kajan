@@ -41,3 +41,21 @@ require_once(get_template_directory().'/assets/translation/translation.php');
 
 // Customize the WordPress admin
 require_once(get_template_directory().'/assets/functions/admin.php'); 
+
+function single_archive_title($title) {
+	if (is_category()) {
+        $title = single_cat_title('', false);
+    } elseif (is_month()) {
+        $title = single_month_title('', false);
+    } elseif (is_author()) {
+        $title = '<span class="vcard">'.get_the_author().'</span>';
+    } elseif (is_post_type_archive()) {
+        $title = post_type_archive_title('', false);
+    } elseif (is_tax()) {
+        $title = single_term_title('', false);
+    }
+  
+    return $title;
+}
+ 
+add_filter( 'get_the_archive_title', 'single_archive_title' );
