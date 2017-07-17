@@ -53,7 +53,9 @@ function single_archive_title($title) {
         $title = post_type_archive_title('', false);
     } elseif (is_tax()) {
         $title = single_term_title('', false);
-    }
+    } else {
+		$title = get_the_archive_title();
+	}
   
     return $title;
 }
