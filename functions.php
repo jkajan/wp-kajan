@@ -1,4 +1,11 @@
+
 <?php
+
+
+@ini_set( 'upload_max_size' , '64M');
+@ini_set( 'post_max_size' , '64M');
+@ini_set( 'max_execution_time', '300');
+
 // Theme support options
 require_once(get_template_directory().'/assets/functions/theme-support.php'); 
 
