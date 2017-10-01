@@ -49,19 +49,27 @@
 	<!-- Uncomment this line if using the Off-Canvas Menu --> 
 		
 	<body <?php body_class(); ?>>
+
 		<div class="row columns">
 			<a href="https://blog.xn--kajn-7na.io" class="headertext">blog.kaján.io</a>
 			<hr style="border:solid #aaa, height: 1px;"/>
 		</div>	
+
 		<div class="off-canvas-wrapper">
 							
 			<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
 			
 			<div class="off-canvas-content" data-off-canvas-content>
 				
+					<div data-sticky-container>
+					<div class="sticky" data-sticky data-margin-top="0">
 				<header class="header" role="banner">
+
+					<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
 						
 					 <!-- This navs will be applied to the topbar, above all content 
 						  To see additional nav styles, visit the /parts directory -->
-	 				
+
 				</header> <!-- end .header -->
+	 				</div>	
+	 				</div>	

@@ -3,7 +3,7 @@
 	<div id="content">
 		<div id="inner-content" class="row" style="padding-top: 0em">
 	
-		    <main id="main" class="large-8 medium-8 columns" role="main">
+		    <main id="main" class="small-12 columns" role="main">
 		    
 			    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			 
