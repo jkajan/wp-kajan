@@ -61,7 +61,7 @@
 			
 			<div id="maincontent" class="off-canvas-content" data-off-canvas-content>
 					
-						<header class="header" role="banner">
+						<header class="header" role="banner" data-sticky-container>
 
 							<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
 								
