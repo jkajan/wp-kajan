@@ -1,7 +1,9 @@
-<div class="top-bar" id="top-bar-menu">
-	<div class="top-bar-right">
-		<ul class="menu">
-			<li><button class="menu-icon" type="button" data-toggle="off-canvas"></button></li>
-		</ul>
+	<div data-sticky-container>
+		<div class="sticky" data-sticky data-anchor="maincontent" data-margin-top="0">
+			<div id="top-bar-menu">
+				<div>
+					<button class="button float-right" data-toggle="off-canvas"></button>
+				</div>
+			</div>
+		</div>
 	</div>
-</div>

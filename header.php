@@ -59,17 +59,13 @@
 							
 			<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
 			
-			<div class="off-canvas-content" data-off-canvas-content>
-				
-					<div data-sticky-container>
-					<div class="sticky" data-sticky data-margin-top="0">
-				<header class="header" role="banner">
+			<div id="maincontent" class="off-canvas-content" data-off-canvas-content>
+					
+						<header class="header" role="banner">
 
-					<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
-						
-					 <!-- This navs will be applied to the topbar, above all content 
-						  To see additional nav styles, visit the /parts directory -->
+							<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
+								
+							 <!-- This navs will be applied to the topbar, above all content 
+								  To see additional nav styles, visit the /parts directory -->
 
-				</header> <!-- end .header -->
-	 				</div>	
-	 				</div>	
+						</header> <!-- end .header -->
