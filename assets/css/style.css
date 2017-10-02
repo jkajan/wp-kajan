@@ -11,7 +11,7 @@ GENERAL STYLES
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans|Lobster+Two:400,700,700i');
 
 body {
-    padding: 2em;
+    padding: 2em 2em 2em;
 }
 
 html * {
@@ -26,12 +26,11 @@ html * {
 
 .headertext {
     background-color: #fff; overflow:hidden;
-    padding-left: 10px;
     font-family: 'Lobster Two', cursive;
     font-weight: 700;
     font-style: italic;
     text-transform: lowercase;
-    font-size: 48px;
+    font-size: 36px;
     background: url(https://blog.xn--kajn-7na.io/wp-content/themes/kajan-wp/assets/images/bg1.png);
     background-size: 250px;
     background-position: 0px 10px;
@@ -119,6 +118,7 @@ NAVIGATION STYLES
     margin-left: 20px; }
 
 .topbar-sticky-shrink {
+  padding: 0;
   transition: padding 0.25s ease;
   background-color: #fff;
 }
@@ -127,7 +127,7 @@ NAVIGATION STYLES
 }
 
 .is-stuck .topbar-sticky-shrink {
-  padding: 1em 1em 1em;
+  padding: 0;
   transition: padding 0.25s ease;
 }
 
@@ -137,6 +137,12 @@ NAVIGATION STYLES
 
 .topbar-sticky-shrink-header {
   background-size: cover;
+}
+
+.menu-icon {
+  color: black;
+  background-color: #aaa;
+  margin: 10px;
 }
 
 /*********************

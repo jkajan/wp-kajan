@@ -1,8 +1,7 @@
-<div class="float-right">
+<div class="float-right" style="padding-top:1em">
 	<div id="top-bar-menu">
-		<!--
-		<button class="menu-icon" type="button" style="color:black" data-toggle="off-canvas"></button>
-		-->
-		<a data-toggle="off-canvas"><?php _e( 'Menu', 'jointswp' ); ?></a>
+
+		<button class="menu-icon" data-toggle="off-canvas"></button>
+
 	</div>
 </div>

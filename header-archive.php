@@ -49,20 +49,30 @@
 	<!-- Uncomment this line if using the Off-Canvas Menu --> 
 		
 	<body <?php body_class(); ?>>
-		<div class="row columns">
-			<a href="https://blog.xn--kajn-7na.io" class="headertext">blog.kaján.io - <?php echo esc_attr(get_the_archive_title());?></a>
-			<hr style="border:solid #aaa, height: 1px;"/>
-		</div>	
 
 		<div class="off-canvas-wrapper">
 							
 			<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
 			
-			<div class="off-canvas-content" data-off-canvas-content>
-				
-				<header class="header" role="banner">
-						
-					 <!-- This navs will be applied to the topbar, above all content 
-						  To see additional nav styles, visit the /parts directory -->
-	 				
-				</header> <!-- end .header -->
+			<div id="maincontent" class="off-canvas-content" data-off-canvas-content>
+					
+						<header class="header">
+						<div data-sticky-container>
+								<div data-sticky data-margin-top='0' data-anchor="maincontent" data-options="stickyOn:small">
+										<div class="row" style="border-bottom: solid thin #aaa;">
+											<div class="top-bar topbar-sticky-shrink">
+												<div class="small-10 columns">
+													<div class="top-bar-title">
+													<a href="https://blog.xn--kajn-7na.io" class="headertext"><?php echo esc_attr(get_the_archive_title());?></a> 
+													</div>
+												</div>
+												<div class="small-2 columns">
+														<div class="top-bar-right">
+																	<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
+														</div>
+												</div>
+											</div>
+						</div>			
+							 <!-- This navs will be applied to the topbar, above all content 
+								  To see additional nav styles, visit the /parts directory -->
+						</header> <!-- end .header -->

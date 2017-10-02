@@ -59,23 +59,19 @@
 						<header class="header">
 						<div data-sticky-container>
 								<div data-sticky data-margin-top='0' data-anchor="maincontent" data-options="stickyOn:small">
-										<div class="row">
-										<div class="top-bar topbar-sticky-shrink">
-										<div class="top-bar-title">
+										<div class="row" style="border-bottom: solid thin #aaa;">
+											<div class="top-bar topbar-sticky-shrink">
 												<div class="small-10 columns">
-													<a href="https://blog.xn--kajn-7na.io" class="headertext">blog.kaján.io</a> 
+													<div class="top-bar-title">
+															<a href="https://blog.xn--kajn-7na.io" class="headertext">blog.kaján.io</a> 
+													</div>
 												</div>
-
-										</div>
-										<div class="top-bar-right">
 												<div class="small-2 columns">
-													<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
-												</div>	
-										</div>
-											<hr style="border:solid #aaa, height: 1px;"/>
-										</div>
-								</div>
-
+														<div class="top-bar-right">
+																	<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
+														</div>
+												</div>
+											</div>
 						</div>			
 							 <!-- This navs will be applied to the topbar, above all content 
 								  To see additional nav styles, visit the /parts directory -->
