@@ -1,5 +1,8 @@
-<div class="menu" data-sticky data-anchor="maincontent" data-margin-top="0">
+<div class="float-right">
 	<div id="top-bar-menu">
-		<button class="button float-right" data-toggle="off-canvas">Menu</button>
+		<!--
+		<button class="menu-icon" type="button" style="color:black" data-toggle="off-canvas"></button>
+		-->
+		<a data-toggle="off-canvas"><?php _e( 'Menu', 'jointswp' ); ?></a>
 	</div>
 </div>

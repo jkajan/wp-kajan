@@ -118,6 +118,27 @@ NAVIGATION STYLES
   .off-canvas-list ul .dropdown {
     margin-left: 20px; }
 
+.topbar-sticky-shrink {
+  transition: padding 0.25s ease;
+  background-color: #fff;
+}
+
+.topbar-sticky-shrink .menu {
+}
+
+.is-stuck .topbar-sticky-shrink {
+  padding: 1em 1em 1em;
+  transition: padding 0.25s ease;
+}
+
+[data-sticky] {
+  width: 100%;
+}
+
+.topbar-sticky-shrink-header {
+  background-size: cover;
+}
+
 /*********************
 POSTS & CONTENT STYLES
 *********************/

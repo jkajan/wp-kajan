@@ -50,22 +50,33 @@
 		
 	<body <?php body_class(); ?>>
 
-		<div class="row columns">
-			<a href="https://blog.xn--kajn-7na.io" class="headertext">blog.kaján.io</a>
-			<hr style="border:solid #aaa, height: 1px;"/>
-		</div>	
-
 		<div class="off-canvas-wrapper">
 							
 			<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
 			
 			<div id="maincontent" class="off-canvas-content" data-off-canvas-content>
 					
-						<header class="header" role="banner" data-sticky-container>
+						<header class="header">
+						<div data-sticky-container>
+								<div data-sticky data-margin-top='0' data-anchor="maincontent" data-options="stickyOn:small">
+										<div class="row">
+										<div class="top-bar topbar-sticky-shrink">
+										<div class="top-bar-title">
+												<div class="small-10 columns">
+													<a href="https://blog.xn--kajn-7na.io" class="headertext">blog.kaján.io</a> 
+												</div>
 
-							<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
-								
+										</div>
+										<div class="top-bar-right">
+												<div class="small-2 columns">
+													<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
+												</div>	
+										</div>
+											<hr style="border:solid #aaa, height: 1px;"/>
+										</div>
+								</div>
+
+						</div>			
 							 <!-- This navs will be applied to the topbar, above all content 
 								  To see additional nav styles, visit the /parts directory -->
-
 						</header> <!-- end .header -->
