@@ -60,7 +60,7 @@
 						<div data-sticky-container>
 								<div data-sticky data-margin-top='0' data-anchor="maincontent" data-options="stickyOn:small">
 										<div class="row" style="border-bottom: solid thin #aaa;">
-											<div class="top-bar topbar-sticky-shrink">
+											<div class="top-bar">
 												<div class="small-10 columns">
 													<div class="top-bar-title">
 															<a href="https://blog.xn--kajn-7na.io" class="headertext">blog.kaján.io</a> 

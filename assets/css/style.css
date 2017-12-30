@@ -30,7 +30,6 @@ html * {
     font-style: italic;
     text-transform: lowercase;
     font-size: 36px;
-    display: block;
 }
 /*********************
 LINK STYLES
@@ -101,8 +100,10 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-.top-bar .title-area {
-  z-index: 1; }
+.top-bar {
+  z-index: 1; 
+  background-color: #fff;
+}
 
 .off-canvas-list ul {
   margin-left: 0; }
@@ -111,26 +112,8 @@ NAVIGATION STYLES
   .off-canvas-list ul .dropdown {
     margin-left: 20px; }
 
-.topbar-sticky-shrink {
-  padding: 0;
-  transition: padding 0.25s ease;
-  background-color: #fff;
-}
-
-.topbar-sticky-shrink .menu {
-}
-
-.is-stuck .topbar-sticky-shrink {
-  padding: 0;
-  transition: padding 0.25s ease;
-}
-
 [data-sticky] {
   width: 100%;
-}
-
-.topbar-sticky-shrink-header {
-  background-size: cover;
 }
 
 .menu-icon {
