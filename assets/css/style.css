@@ -111,6 +111,10 @@ NAVIGATION STYLES
   padding: 0px;
 }
 
+.off-canvas {
+	background-color: #fff;
+}
+
 .off-canvas-list ul {
   margin-left: 0; }
   .off-canvas-list ul li a {
