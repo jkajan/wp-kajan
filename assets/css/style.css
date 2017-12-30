@@ -24,13 +24,6 @@ html * {
     padding-right: 1em;
 }
 
-.headertext {
-    font-family: 'Lobster Two', cursive;
-    font-weight: 700;
-    font-style: italic;
-    text-transform: lowercase;
-    font-size: 36px;
-}
 /*********************
 LINK STYLES
 *********************/
@@ -103,6 +96,19 @@ NAVIGATION STYLES
 .top-bar {
   z-index: 1; 
   background-color: #fff;
+  padding: 0px;
+}
+
+.top-bar-right {
+  z-index: 1; 
+  background-color: #fff;
+  padding: 0px;
+}
+
+.top-bar-title {
+  z-index: 1; 
+  background-color: #fff;
+  padding: 0px;
 }
 
 .off-canvas-list ul {

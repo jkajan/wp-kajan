@@ -63,7 +63,7 @@
 											<div class="top-bar">
 												<div class="small-10 columns">
 													<div class="top-bar-title">
-															<a href="https://blog.xn--kajn-7na.io" class="headertext">blog.kaján.io</a> 
+															<h2><a href="https://blog.xn--kajn-7na.io">blog.kaján.io</a></h2>
 													</div>
 												</div>
 												<div class="small-2 columns">
