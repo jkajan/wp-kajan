@@ -49,21 +49,14 @@
 	<!-- Uncomment this line if using the Off-Canvas Menu --> 
 		
 	<body <?php body_class(); ?>>
-
-		<div class="off-canvas-wrapper">
-							
-			<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
-			
-			<div id="maincontent" class="off-canvas-content" data-off-canvas-content>
-					
 						<header class="header">
 						<div data-sticky-container>
-								<div data-sticky data-margin-top='0' data-anchor="maincontent" data-options="stickyOn:small">
+								<div data-sticky data-margin-top='0' data-anchor="maincontent">
 										<div class="row" style="border-bottom: solid thin #aaa;">
 											<div class="top-bar">
 												<div class="small-10 columns">
 													<div class="top-bar-title">
-															<h2><a href="https://blog.xn--kajn-7na.io">blog.kaján.io</a></h2>
+														<h2><a href="https://blog.xn--kajn-7na.io">blog.kaján.io</a></h2>
 													</div>
 												</div>
 												<div class="small-2 columns">
@@ -76,3 +69,11 @@
 							 <!-- This navs will be applied to the topbar, above all content 
 								  To see additional nav styles, visit the /parts directory -->
 						</header> <!-- end .header -->
+
+		<div class="off-canvas-wrapper">
+							
+			<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
+			
+			<div id="maincontent" class="off-canvas-content" data-off-canvas-content>
+					
+

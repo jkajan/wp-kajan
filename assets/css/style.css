@@ -94,25 +94,14 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
 .top-bar {
-  z-index: 1; 
   background-color: #fff;
   padding: 0px;
-}
-
-.top-bar-right {
-  z-index: 1; 
-  background-color: #fff;
-  padding: 0px;
-}
-
-.top-bar-title {
-  z-index: 1; 
-  background-color: #fff;
-  padding: 0px;
+  z-index: 0;
 }
 
 .off-canvas {
 	background-color: #fff;
+	z-index: 10;
 }
 
 .off-canvas-list ul {
