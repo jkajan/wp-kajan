@@ -19,11 +19,6 @@ html * {
     color: #333;
 }
 
-.columns {
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
 /*********************
 LINK STYLES
 *********************/
@@ -97,6 +92,10 @@ NAVIGATION STYLES
   background-color: #fff;
   padding: 0px;
   z-index: 0;
+}
+
+.top-bar-title {
+	padding: 0px;
 }
 
 .off-canvas {

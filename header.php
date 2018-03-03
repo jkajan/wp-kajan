@@ -52,19 +52,20 @@
 						<header class="header">
 						<div data-sticky-container>
 								<div data-sticky data-margin-top='0' data-anchor="maincontent">
-										<div class="row" style="border-bottom: solid thin #aaa;">
-											<div class="top-bar">
-												<div class="small-10 columns">
-													<div class="top-bar-title">
+										<div class="x-grid">
+
+											<div class="medium-offset-1 medium-10 large-offset-2 large-8 cell" style="border-bottom: solid thin #aaa;">
+												<div class="top-bar">
+													<div class="top-bar-title" style="padding:0;">
 														<h2><a href="https://blog.xn--kajn-7na.io">blog.kaján.io</a></h2>
 													</div>
-												</div>
-												<div class="small-2 columns">
-														<div class="top-bar-right">
-																	<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
-														</div>
+													<div class="top-bar-right">
+														<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
+													</div>
 												</div>
 											</div>
+										</div>
+								</div>
 						</div>			
 							 <!-- This navs will be applied to the topbar, above all content 
 								  To see additional nav styles, visit the /parts directory -->
