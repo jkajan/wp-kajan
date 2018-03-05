@@ -79,6 +79,10 @@ h1, h2, h3, h4, h5 {
     text-decoration: underline;
 }
 
+p {
+	text-align: justify;
+}
+
 /*********************
 HEADER STYLES
 *********************/
