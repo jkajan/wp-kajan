@@ -56,23 +56,14 @@
 			
 			<div id="maincontent" class="off-canvas-content" data-off-canvas-content>
 					
-						<header class="header">
-						<div data-sticky-container>
-								<div data-sticky data-margin-top='0' data-anchor="maincontent" data-options="stickyOn:small">
-										<div class="row" style="border-bottom: solid thin #aaa;">
-											<div class="top-bar topbar-sticky-shrink">
-												<div class="small-10  medium-offset-1 medium-8 large-offset-2 large-6 cell" style="padding:0;">
-													<div class="top-bar-title">
-													<h2><a href="https://blog.xn--kajn-7na.io"><?php echo esc_attr(get_the_archive_title());?></a></h2>
-													</div>
-												</div>
-												<div class="auto cell">
-														<div class="top-bar-right">
-																	<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
-														</div>
-												</div>
-											</div>
-						</div>			
-							 <!-- This navs will be applied to the topbar, above all content 
-								  To see additional nav styles, visit the /parts directory -->
-						</header> <!-- end .header -->
+				<header class="header">
+				<div class="grid-x" data-sticky-container>
+					<div class="medium-offset-1 medium-10 large-offset-2 large-8 cell">
+						<div class="title-bar" data-sticky data-options="marginTop:0;" style="padding:0; border-bottom: solid thin #aaa;" data-top-anchor="maincontent">
+							<h2><a href="https://blog.xn--kajn-7na.io"><?php echo esc_attr(get_the_archive_title());?></a></h2> </div>
+						</div>
+					</div>
+				</div>
+					 <!-- This navs will be applied to the topbar, above all content 
+						  To see additional nav styles, visit the /parts directory -->
+				</header> <!-- end .header -->
