@@ -49,27 +49,6 @@
 	<!-- Uncomment this line if using the Off-Canvas Menu --> 
 		
 	<body <?php body_class(); ?>>
-						<header class="header">
-						<div data-sticky-container>
-								<div data-sticky data-margin-top='0' data-anchor="maincontent">
-										<div class="x-grid">
-
-											<div style="border-bottom: solid thin #aaa;">
-												<div class="top-bar">
-													<div class="top-bar-title small-10 medium-offset-1 medium-8 large-offset-2 large-6 cell" style="padding:0;">
-														<h2><a href="https://blog.xn--kajn-7na.io">blog.kaján.io</a></h2>
-													</div>
-													<div class="top-bar-right auto cell">
-														<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
-													</div>
-												</div>
-											</div>
-										</div>
-								</div>
-						</div>			
-							 <!-- This navs will be applied to the topbar, above all content 
-								  To see additional nav styles, visit the /parts directory -->
-						</header> <!-- end .header -->
 
 		<div class="off-canvas-wrapper">
 							
@@ -77,4 +56,23 @@
 			
 			<div id="maincontent" class="off-canvas-content" data-off-canvas-content>
 					
-
+						<header class="header">
+						<div data-sticky-container>
+								<div data-sticky data-margin-top='0' data-anchor="maincontent" data-options="stickyOn:small">
+										<div class="row" style="border-bottom: solid thin #aaa;">
+											<div class="top-bar topbar-sticky-shrink">
+												<div class="small-10  medium-offset-1 medium-8 large-offset-2 large-6 cell" style="padding:0;">
+													<div class="top-bar-title">
+													<h2><a href="https://blog.xn--kajn-7na.io">blog.kaján.io</a></h2>
+													</div>
+												</div>
+												<div class="auto cell">
+														<div class="top-bar-right">
+																	<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
+														</div>
+												</div>
+											</div>
+						</div>			
+							 <!-- This navs will be applied to the topbar, above all content 
+								  To see additional nav styles, visit the /parts directory -->
+						</header> <!-- end .header -->
