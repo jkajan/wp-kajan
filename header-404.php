@@ -49,21 +49,25 @@
 	<!-- Uncomment this line if using the Off-Canvas Menu --> 
 		
 	<body <?php body_class(); ?>>
-
-		<div class="off-canvas-wrapper">
-							
-			<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
 			
-			<div id="maincontent" class="off-canvas-content" data-off-canvas-content>
-					
+			<div id="maincontent"> 
 				<header class="header">
-				<div class="grid-x" data-sticky-container>
+				<div class="grid-x">
 					<div class="medium-offset-1 medium-10 large-offset-2 large-8 cell">
 						<div class="title-bar" data-sticky data-options="marginTop:0;" style="padding:0; border-bottom: solid thin #aaa;" data-top-anchor="maincontent">
-							<h2><a href="https://blog.xn--kajn-7na.io">Error 404</a></h2> </div>
+						<div class="title-bar-left">
+							<h2><a href="https://blog.xn--kajn-7na.io">Error 404.</a></h2>
+						</div>
+						<div class="title-bar-right">
+							<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
+						</div>
 						</div>
 					</div>
 				</div>
 					 <!-- This navs will be applied to the topbar, above all content 
 						  To see additional nav styles, visit the /parts directory -->
 				</header> <!-- end .header -->
+
+		<div class="off-canvas-wrapper">
+
+		<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
