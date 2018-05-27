@@ -95,12 +95,12 @@ NAVIGATION STYLES
 .title-bar {
   background-color: #fff;
   padding: 0px;
-  z-index: 0;
+  z-index: 10;
 }
 
 .off-canvas {
 	background-color: #fff;
-	z-index: 10;
+	z-index: 1;
 }
 
 .off-canvas-list ul {

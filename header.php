@@ -50,7 +50,6 @@
 		
 	<body <?php body_class(); ?>>
 			
-		<div class="off-canvas-wrapper">
 			<div id="maincontent"> 
 				<header class="header">
 				<div class="grid-x">
@@ -68,5 +67,7 @@
 					 <!-- This navs will be applied to the topbar, above all content 
 						  To see additional nav styles, visit the /parts directory -->
 				</header> <!-- end .header -->
+
+		<div class="off-canvas-wrapper">
 
 		<?php get_template_part( 'parts/content', 'offcanvas' ); ?>

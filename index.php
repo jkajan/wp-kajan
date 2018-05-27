@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 			
-	<div id="content">
-		<div id="inner-content" class="grid-x off-canvas-content" data-off-canvas-content>
+	<div id="content" class="off-canvas-content" data-off-canvas-content>
+		<div id="inner-content" class="grid-x">
 	
 		    <main id="main" class="medium-offset-1 medium-10 large-offset-2 large-8 cell" role="main">
 		    
