@@ -1,4 +1,4 @@
-<div class="off-canvas position-right" id="off-canvas" data-off-canvas>
+<div class="off-canvas position-right" id="off-canvas" data-off-canvas data-transition="overlap">
 	<div style="padding:2em">
 		<?php joints_off_canvas_nav(); ?>
 		<?php if ( is_active_sidebar( 'offcanvas' ) ) : ?>
