@@ -5,7 +5,7 @@
 	    						<?php joints_footer_links(); ?>
 	    					</nav>
 	    				</div>
-						<div class="medium-offset-1 medium-10 large-offset-2 large-8 cell">
+						<div class=" medium-10  large-8 cell">
 							<p class="source-org copyright" style="color:#aaa; font-size:0.8em">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
 						</div>
 					</div> <!-- end #inner-footer -->

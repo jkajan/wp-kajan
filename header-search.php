@@ -4,14 +4,14 @@
 
 	<head>
 		<meta charset="utf-8">
-		
+
 		<!-- Force IE to use the latest rendering engine available -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta class="foundation-mq">
-		
+
 			<!--[if IE]>
 				<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 			<![endif]-->
@@ -45,29 +45,28 @@
 		<!-- end analytics -->
 
 	</head>
-	
-	<!-- Uncomment this line if using the Off-Canvas Menu --> 
-		
+
+	<!-- Uncomment this line if using the Off-Canvas Menu -->
+
 	<body <?php body_class(); ?>>
-			
-			<div id="maincontent"> 
+    <div class="off-canvas-wrapper">
+      <?php get_template_part('parts/content', 'offcanvas'); ?>
+      <div id="content" class="off-canvas-content" data-off-canvas-content>
+			<div id="maincontent">
 				<header class="header">
 				<div class="grid-x">
-					<div class="medium-offset-1 medium-10 large-offset-2 large-8 cell">
-						<div class="title-bar" data-sticky data-options="marginTop:0;" style="padding:0; border-bottom: solid thin #aaa;" data-top-anchor="maincontent">
+					<div class="medium-10 large-8 cell">
+						<div class="title-bar">
 						<div class="title-bar-left">
 							<h2><a href="https://blog.xn--kajn-7na.io"><?php echo esc_attr(get_search_query()); ?></a></h2>
+              <p>Below you can find the search results for the term "<?php echo esc_attr(get_search_query()); ?>". Nifty, I know.</p>
 						</div>
 						<div class="title-bar-right">
-							<?php get_template_part( 'parts/nav', 'offcanvas' ); ?>
+							<?php get_template_part('parts/nav', 'offcanvas'); ?>
 						</div>
 						</div>
 					</div>
 				</div>
-					 <!-- This navs will be applied to the topbar, above all content 
+					 <!-- This navs will be applied to the topbar, above all content
 						  To see additional nav styles, visit the /parts directory -->
 				</header> <!-- end .header -->
-
-		<div class="off-canvas-wrapper">
-
-		<?php get_template_part( 'parts/content', 'offcanvas' ); ?>

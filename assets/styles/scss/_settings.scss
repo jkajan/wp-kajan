@@ -500,8 +500,8 @@ $offcanvas-vertical-sizes: (
   small: 250px,
 );
 $offcanvas-background: $white;
-$offcanvas-shadow: 0 0 2px rgba($black, 0.7);
-$offcanvas-inner-shadow-size: 20px;
+$offcanvas-shadow: 0;
+$offcanvas-inner-shadow-size: 0px;
 $offcanvas-inner-shadow-color: rgba($black, 0.25);
 $offcanvas-overlay-zindex: 11;
 $offcanvas-push-zindex: 12;
@@ -866,4 +866,3 @@ $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
-
