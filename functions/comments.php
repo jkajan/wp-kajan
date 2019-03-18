@@ -1,7 +1,12 @@
 <?php
 //change text to leave a reply on comment form
 function isa_comment_reform ($arg) {
-  $arg['title_reply'] = __('Leave a Comment?');
+  $replies = array( "Leave a comment?",
+                    "Share your thoughts?",
+                    "Post a comment?",
+                    "Got something to say?",
+                    "Opinions on this?");
+  $arg['title_reply'] = __($replies[rand(0,count($replies)-1)]);
   return $arg;
 }
 add_filter('comment_form_defaults','isa_comment_reform');
