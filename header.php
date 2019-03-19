@@ -58,7 +58,7 @@
 					<div class="medium-10 large-8 cell">
 						<div class="title-bar">
 						<div class="title-bar-left">
-							<h2><a href="<?php echo site_url(); ?>"><?php echo site_url('','https'); ?></a></h2>
+							<h2><a href="<?php echo site_url(); ?>">blog.kaján.io</a></h2>
               <p><?php printf(get_bloginfo('description')); ?></p>
 						</div>
 						<div class="title-bar-right">
