@@ -58,7 +58,7 @@
 					<div class="medium-10 large-8 cell">
 						<div class="title-bar">
 						<div class="title-bar-left">
-							<h2><a href="https://blog.xn--kajn-7na.io">Error 404.</a></h2>
+							<h2><a href="<?php echo site_url(); ?>">Error 404.</a></h2>
               <p>Hmm, page not found.</p>
 						</div>
 						<div class="title-bar-right">

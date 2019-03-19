@@ -58,7 +58,7 @@
 					<div class="medium-10 large-8 cell">
 						<div class="title-bar">
 						<div class="title-bar-left">
-							<h2><a href="https://blog.xn--kajn-7na.io"><?php echo esc_attr(get_search_query()); ?></a></h2>
+							<h2><a href="<?php echo site_url(); ?>"><?php echo esc_attr(get_search_query()); ?></a></h2>
               <p>Below you can find the search results for the term "<?php echo esc_attr(get_search_query()); ?>". Nifty, I know.</p>
 						</div>
 						<div class="title-bar-right">
