@@ -47,27 +47,25 @@
 	</head>
 
 	<!-- Uncomment this line if using the Off-Canvas Menu -->
-
-	<body <?php body_class(); ?>>
-
-			<div id="maincontent">
-				<header class="header">
-				<div class="grid-x">
+  <body <?php body_class(); ?>>
+    <div class="off-canvas-wrapper">
+      <?php get_template_part('parts/content', 'offcanvas'); ?>
+      <div id="content" class="off-canvas-content" data-off-canvas-content>
+      <div id="maincontent">
+        <header class="header">
+        <div class="grid-x">
           <div class="medium-offset-1 medium-10 cell">
-					<div class="title-bar">
-						<div class="title-bar-left">
-						<h2><a href="https://j.xn--kajn-7na.io"><?php the_title(); ?></a></h2>
-						</div>
+            <div class="title-bar">
+            <div class="title-bar-left">
+              <h2><a href="<?php echo site_url(); ?>"><?php the_title(); ?></a></h2>
+              <p><?php printf(get_bloginfo('description')); ?></p>
+            </div>
             <div class="title-bar-right">
-							<?php get_template_part('parts/nav', 'offcanvas'); ?>
-						</div>
-						</div>
-					</div>
-				</div>
-					 <!-- This navs will be applied to the topbar, above all content
-						  To see additional nav styles, visit the /parts directory -->
-				</header> <!-- end .header -->
-
-		<div class="off-canvas-wrapper">
-
-		<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
+              <?php get_template_part('parts/nav', 'offcanvas'); ?>
+            </div>
+            </div>
+          </div>
+        </div>
+           <!-- This navs will be applied to the topbar, above all content
+              To see additional nav styles, visit the /parts directory -->
+        </header> <!-- end .header -->
