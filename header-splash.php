@@ -53,10 +53,13 @@
 			<div id="maincontent">
 				<header class="header">
 				<div class="grid-x">
-					<div class="medium-10 large-8 cell">
+          <div class="medium-offset-1 medium-10 cell">
 					<div class="title-bar">
 						<div class="title-bar-left">
 						<h2><a href="https://j.xn--kajn-7na.io"><?php the_title(); ?></a></h2>
+						</div>
+            <div class="title-bar-right">
+							<?php get_template_part('parts/nav', 'offcanvas'); ?>
 						</div>
 						</div>
 					</div>

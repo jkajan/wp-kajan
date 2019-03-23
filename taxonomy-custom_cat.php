@@ -19,7 +19,7 @@ taxonomy-shoes.php
 
 	<div id="inner-content" class="row">
 
-	    <main id="main" class="large-8 medium-8 columns first" role="main">
+	    <main id="main" class="medium-offset-1 medium-10 cell first" role="main">
 	
 		    <header>
 		    	<h1 class="page-title"><span><?php _e( 'Posts Categorized:', 'jointswp' ); ?></span> <?php single_cat_title(); ?></h1>

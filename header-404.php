@@ -55,7 +55,7 @@
 			<div id="maincontent">
 				<header class="header">
 				<div class="grid-x">
-					<div class="medium-10 large-8 cell">
+					<div class="medium-offset-1 medium-10 cell">
 						<div class="title-bar">
 						<div class="title-bar-left">
 							<h2><a href="<?php echo site_url(); ?>">Error 404.</a></h2>

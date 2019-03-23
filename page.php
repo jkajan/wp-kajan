@@ -4,7 +4,7 @@
 	
 		<div id="inner-content" class="grid-x">
 	
-		    <main id="main" class=" medium-10  large-8 cell" role="main">
+		    <main id="main" class=" medium-offset-1 medium-10 cell" role="main">
 				
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
